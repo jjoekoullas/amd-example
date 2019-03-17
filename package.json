@@ -1,0 +1,17 @@
+{
+  "name": "amd-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "lodash": "^4.17.11",
+    "typescript": "^3.3.3333"
+  }
+}
