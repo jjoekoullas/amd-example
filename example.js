@@ -1,4 +1,3 @@
-"use strict";
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
@@ -6,6 +5,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-var _ = __importStar(require("lodash"));
-exports.val = _.get({ something: 42 }, 'something');
+define(["require", "exports", "lodash"], function (require, exports, _) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    _ = __importStar(_);
+    exports.val = _.get({ something: 42 }, 'something');
+});
